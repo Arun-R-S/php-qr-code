@@ -1,9 +1,9 @@
 <?php
-
-include('library/qrlib.php');
+phpinfo();
+//include('library/qrlib.php');
     
     // outputs image directly into browser, as PNG stream
-    QRcode::png('This is build by anderson',false,QR_ECLEVEL_Q,16,3);
+  //  QRcode::png('This is build by anderson',false,QR_ECLEVEL_Q,16,3);
 
 /*    include('library/qrlib.php');
     //include('config.php');
