@@ -1,5 +1,6 @@
 <?php
-
+error_reporting(E_ALL);
+ini_set("display_errors", 1);
 function gradient($image_width, $image_height,$c1_r, $c1_g, $c1_b, $c2_r, $c2_g, $c2_b, $vertical=false)
 {
 // first: lets type cast;
